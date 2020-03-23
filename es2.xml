@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding = "UTF-8" standalone ="yes"?>
+<!--Versione sbagliata
+    Author: Mattia Filosa
+-->
+<choice>
+    <sic>Testo con errore          
+    <cor>Testo corretto</sic>  
+    </cor>
+</choice>
+
+<!-- Versione corretta del corpo
+<choice>
+    <sic>Testo con errore</sic>
+    <cor>Testo corretto</cor>
+</choice> -->
+
+<!--Output xmllint
+es2.xml:4: parser error : Opening and ending tag mismatch: cor line 4 and sic
+    <cor>Testo corretto</sic>
+                             ^
+es2.xml:5: parser error : Opening and ending tag mismatch: sic line 3 and cor
+    </cor>
+          ^
+-->

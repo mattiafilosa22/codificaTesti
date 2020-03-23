@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding = "UTF-8" standalone ="yes"?>
+<!--Author: Mattia Filosa
+    Modifica: portare l'elemento vuoto <text> all'interno dell'elemento <text>
+    Aggiunta: ho creato un elemento <figlio> figlio di <text> e <fratello> fratello di <figlio>
+-->
+<text>
+    il primo xml con validazione
+    <text />
+    <figlio>Figlio</figlio>
+    <fratello></fratello>
+</text>
+
+

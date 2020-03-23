@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    il primo xml con validazione
+</text>
+<text />
+
+<!--Output errore rilevato da xmllint
+es3.xml:5: parser error : Extra content at the end of the document
+<text />
+^
+-->
