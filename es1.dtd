@@ -1,0 +1,9 @@
+<!ELEMENT TEI (header,facsimile?,testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT testo (#PCDATA)>
+
+<!--Esercizio su dichiarazione di elementi dtd
+    Author: Mattia Filosa
+    Matricola: 560774
+-->
