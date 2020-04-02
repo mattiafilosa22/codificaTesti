@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<!--
+    Author: Mattia Filosa;
+    Esercizio: Inserire dtd interna al documento;
+    Matricola: 560774
+-->
+<!DOCTYPE radice[
+    <!ELEMENT radice (figlio)>
+    <!ELEMENT figlio (#PCDATA)>
+]>
+<radice>
+    <figlio>
+        dati testuali
+    </figlio>
+</radice>

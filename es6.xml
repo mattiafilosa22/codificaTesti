@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!-- Esercizio: associazione esterna di una dtd
+    Author: Mattia Filosa
+    Matricola: 560774
+-->
+<!DOCTYPE radice SYSTEM "./test.dtd">
+<radice>
+    <figlio>
+        dati testuali
+    </figlio>
+</radice>
