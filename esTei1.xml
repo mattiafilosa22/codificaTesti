@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!-- Esercizio: Gerarchia sovrapposta
+    Author: Mattia Filosa
+    Matricola: 560774
+    Date: 27 aprile 2020
+-->
+
+<text>
+    <title>Roma Capoccia</title>
+
+    <pagina n = "1">
+        <p>Quanto sei bella Roma quand'è sera
+            quando la luna se specchia dentro ar fontanone</p>
+        <p>E le coppiette se ne vanno via
+    </pagina>
+    <pagina n = "2">
+            Quanto sei bella Roma quando piove </p>
+   </pagina>
+</text> 
+    
