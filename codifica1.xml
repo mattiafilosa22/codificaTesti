@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!--
+    Author: Mattia Filosa & Matteo Sarzanini
+    Date: 2020 May 01
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Introduzione Filosofia della Scienza</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>M. Filosa</name>
+                    <name>M. Sarzanini</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>2020-05-01</date>
+               
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title>La filosofia della scienza</title>
+                    <author>Elena Castellani</author>
+                    <author>Matteo Morganti</author>
+                    <publisher>il Mulino</publisher>
+                    <date>2019</date>
+                </bibl> 
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <div type="preface">
+                <head>Itinerari Filosofia</head>
+            </div>
+        </front>
+        
+        <body>
+            <div type = "introduction">
+                <head>Introduzione. Le domande della filosofia della scienza</head>
+                <epigraph>
+                    <cit>
+                        <quote>
+                            Il pensiero non è che un lampo nel mezzo di una lunga notte.
+                            Ma questo lampo è tutto.
+                        </quote>
+                        <bibl>H. Poincaré</bibl>
+                    </cit>
+                </epigraph>
+                <p>
+                    <cit>
+                        <quote>
+                            Che cos'è questa cosa chiamata scienza?
+                        </quote>
+                        <ref>
+                            Chalmers 1979
+                        </ref>
+                    </cit>
+                    Così s'intitolava una nota introduzione alla filosofia della scienza di qualche tempo fa,
+                    che ha poi ispirato molti manuali successivi. La filosofia della scienza prova a rispondere
+                    a questo interrogativo partendo dal fatto innegabile che alla conoscenza scientifica si attribuiscono
+                    caratteristiche speciali, che le conferiscono uno statuto a parte rispetto alle altre forme di 
+                    sapere. Scienza non è solamente conoscenza: è una forma privilegiata di sapere, e la filosofia della 
+                    scienza si pone l'obiettivo di descriverne e comprenderne le specificità.
+                </p>
+                <p>
+                    <q>Per quale motivo viene attribuito un simile statuto alla conoscenza scientifica?</q>
+                    La risposta generalmente condivisa è che sia per il prestigio di cui gode la scienza, dovuto al suo
+                    indubbio successo. Un successo che si declina sia attraverso le ricadute tecnlogiche della ricerca
+                    scientifica, che sperimentiamo di continuo nella vita quotidiana e che hanno un notevolissimo impatto sul nostro modo di vivere, sia sulla base del fatto che lo sviluppo scientifico porta ad una innegabile crescita della conoscenza del mondo in cui ci troviamo. Per quanto le teorie scientifiche si possono avvicendare e, in alcuni casi, venire del tutto abbandonate, oggi sappiamo molto di più del mondo fisico e abbiamo sviluppato molti più strumenti formali e tecnologici rispetto al passato. In questo senso si può parlare senz'altro di progresso scientifico. É un dato di fatto, indipendentemente da come lo si voglia interpretare e da quale valore gli si voglia attribuire: la scienza è enormemente progredita nel corso dei secoli. D'altra parte, questo progresso è avvenuto anche attraverso cambiamenti teorici molto rilevanti, che sono stati a volte accompagnati da radicali mutamenti nella visione del mondo: come nel caso della cosiddetta rivoluzione scientifica, che a cavallo dei secoli XVI e XVII ha dato origine alla scienza modernamente intesa, o nel caso di 
+                    <emph>rivoluzioni</emph> più particolari come quelle rappresentate dalle teorie ristretta e generale della relatività e della meccanica quantistica nei primi decenni del Novecento. Tra le specificità della conoscenza scientifica c'è quindi anche questa: la scienza è una forma di sapere che può comportare, nel suo progresso, anche cambiamenti rivoluzionari nell'immagine del mondo e, in tal senso, incidere ancora di più sul nostro modo di vedere le cose. 
+                </p>
+                <p>
+                    <q>Quali sono, allora, le ragioni del successo della scienza?</q>
+                    É naturale cercarle nelle caratteristiche che si pensa la contraddistinguono come tale. È comune caratterizzarla come una conoscenza sistematica e precisa, che è allo stesso tempo <emph>razionale    </emph>, <emph>oggettiva</emph>, e<emph>fondata</emph> (sia dal punto di vista empirico sia dal punto di vista formale). A queste caratteristiche, per i cosiddetti realisti scientifici, si aggiunge anche quella della verità: se si è realisti, si crede che le teorie scientifiche siano vere anche al di là di quanto possiamo osservare e che, proprio per questo, ci permettano di conoscere il mondo com'esso realmente è [...].
+                </p>
+            </div>
+        </body>
+        <back>
+        </back>
+    </text>
+</TEI>
