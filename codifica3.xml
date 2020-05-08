@@ -1,0 +1,101 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!--
+    Author: Mattia Filosa & Matteo Sarzanini
+    Date: 2020 May 08
+    Esercizio: Codifica nuovi elementi visti a lezione del 07 maggio 2020
+-->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Codifica settimanale pasticceria</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>M. Filosa</name>
+                    <name>M. Sarzanini</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>2020-05-08</date>
+               
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl>
+                    <title type = "main" level = "j">A scuola di pasticceria con Iginio Massari</title>
+                    <title type = "sub">1. Pan di spagna</title>
+                    <author>Iginio Massari</author>
+                    <publisher>RCS MEDIAGROUP S.P.A.</publisher>
+                    <date>2018</date>
+                </bibl> 
+            </sourceDesc>
+
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            <titlePage>
+                <titlePart type = "main">A scuola di pasticceria con Iginio Massari</titlePart>
+                <docAuthor>Iginio Massari</docAuthor>
+                <docImprint>
+                    <publisher>RCS MEDIAGROUP S.P.A.</publisher>
+                    <pubPlace>
+                        <placeName>Orio al serio (BG)</placeName>
+                    </pubPlace>
+                    <date>2018</date>
+                </docImprint>
+            </titlePage> 
+        </front>
+
+        <body>
+            <head><ref target = "#ART">Arrotolato</ref> al cacao</head>
+            <list>
+                <head>Ingredienti per rettangoli di <num value = "40E60">40 X 60</num>cm</head>
+                <item><num>110</num>g di tuorli<ptr target = "#TRL"/>.</item>
+                <item><num>120</num>g di zucchero<ptr target = "#ZCR"/>.</item>
+                <item><num>15</num>g di miele<ptr target = "#MLE"/>.</item>
+                <item><num>1</num>baccello di vaniglia<ptr target = "#BCV"/>.</item>
+                <item><num>20</num>g di acqua<ptr target = "#ACQ"/>.</item>
+                <item><num>110</num>g di albumi<ptr target = "#ALB"/>.</item>
+                <item><num>60</num>g di farina di grano tenero tipo 00<ptr target = "#FRB"/>.</item>
+                <item><num>40</num>g di cacao<ptr target = "#CCO"/>.</item>
+            </list>
+
+            <p>
+                Montare con le fruste elettriche i tuorli<ptr target = "#TRL"/>, con <num>50</num>g di zucchero 
+                <ptr target = "#ZCR"/>, il miele<ptr target = "#MLE"/>, i semi prelevati dal baccello di vaniglia
+                <ptr target = "#BCV"/> e l'acqua<ptr target = "#ACQ"/>.
+            </p>
+            <p> 
+                In un'altra bacinella montare a neve gli albumi<ptr target = "#ALB"/> con lo zucchero<ptr target = "#ZCR"/>
+                rimasto. Setacciate la farina<ptr target = "#FRB"/> con il cacao<ptr target = "#CCO"/>, amalgamate le due 
+                masse montate e incorporate le polveri mescolando delicamente.
+            </p>
+            <p>
+                Per gli arrotolati utilizzati in dolci a più strati dovete pesare<num>400</num> g di massa e stenderla in
+                modo uniforme, a pochi millimetri di spessore, su fogli di carta forno, oppure su stampi Pavoflex in silicone
+                di <num value = "40E60">40 X 60</num>cm. Cuocete in forno a <num>240</num>°C con valvola chiusa di <num>3</num>
+                minuti.
+            </p>
+            <p>
+                Per dolci meno stratificati, pesate <num>600</num>g di massa e cuocete in forno a <num>210</num>°C per 
+                <num>6</num> minuti.
+            </p>
+        </body>
+
+        <back>
+            <note anchored = "true" type="gloss" resp="#ART">
+                Si tratta di una massa a schiuma montata a freddo [...]
+            </note>
+        </back>
+        
+    </text>
+
+</TEI>
